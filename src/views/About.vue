@@ -1,5 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <TestButton route="/" text="home" />
 </template>
+
+<script>
+import TestButton from "@/components/TestButton.vue";
+
+export default {
+  name: "About",
+  components: {
+    TestButton,
+  },
+};
+</script>
