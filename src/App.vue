@@ -1,17 +1,22 @@
 <template>
-<div id="navbar">
-  <Navbar />
-  <Map />
+  <div id="app" class="app">
+    <header id="nav" class="nav-bar">
+      <Navbar />
+    </header>
+    <main class="main">
+      <router-view />
+    </main>
   </div>
 </template>
 <script>
 import Navbar from "@/components/Navbar.vue";
-import Map from "@/components/Map.vue";
 
 export default {
   name: "App",
   components: {
-    Navbar, Map,
+    Navbar,
   },
 };
 </script>
+
+<style></style>

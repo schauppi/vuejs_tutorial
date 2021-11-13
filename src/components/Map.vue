@@ -1,6 +1,8 @@
 <template>
   <div id="map">
+    <!-- Comment
     <p>{{ coordinates.lat }} Latitude, {{ coordinates.lng }} Longitude</p>
+    -->
     <GmapMap
       class="GmapMap"
       :center="coordinates"

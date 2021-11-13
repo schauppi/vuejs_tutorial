@@ -1,12 +1,13 @@
 <template>
-<h1>Hello</h1>
+  <div id="test"><Register /></div>
 </template>
-
 <script>
+import Register from "@/components/Register.vue";
 
 export default {
-  name: "App",
-  components: {
-  },
+  name: "Login",
+  components: { Register },
 };
 </script>
+
+<style></style>
